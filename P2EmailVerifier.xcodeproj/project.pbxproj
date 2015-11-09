@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		EB7177F81BD1F0CA00B56B3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7177F71BD1F0CA00B56B3E /* AppDelegate.swift */; };
-		EB7177FA1BD1F0CA00B56B3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7177F91BD1F0CA00B56B3E /* ViewController.swift */; };
+		EB7177FA1BD1F0CA00B56B3E /* P2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7177F91BD1F0CA00B56B3E /* P2ViewController.swift */; };
 		EB7177FD1BD1F0CA00B56B3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7177FB1BD1F0CA00B56B3E /* Main.storyboard */; };
 		EB7177FF1BD1F0CA00B56B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7177FE1BD1F0CA00B56B3E /* Assets.xcassets */; };
 		EB7178021BD1F0CA00B56B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7178001BD1F0CA00B56B3E /* LaunchScreen.storyboard */; };
 		EB71780D1BD1F0CA00B56B3E /* P2EmailVerifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB71780C1BD1F0CA00B56B3E /* P2EmailVerifierTests.swift */; };
 		EB7178181BD1F0CA00B56B3E /* P2EmailVerifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7178171BD1F0CA00B56B3E /* P2EmailVerifierUITests.swift */; };
+		EB7178271BD1F16900B56B3E /* LICENCE.txt in Resources */ = {isa = PBXBuildFile; fileRef = EB7178251BD1F16900B56B3E /* LICENCE.txt */; };
+		EB7178281BD1F16900B56B3E /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = EB7178261BD1F16900B56B3E /* README.markdown */; };
+		EB71783F1BD1FD5300B56B3E /* P2EmailVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB71783E1BD1FD5300B56B3E /* P2EmailVerifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		EB7177F41BD1F0CA00B56B3E /* P2EmailVerifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P2EmailVerifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7177F71BD1F0CA00B56B3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB7177F91BD1F0CA00B56B3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB7177F91BD1F0CA00B56B3E /* P2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2ViewController.swift; sourceTree = "<group>"; };
 		EB7177FC1BD1F0CA00B56B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB7177FE1BD1F0CA00B56B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB7178011BD1F0CA00B56B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		EB7178131BD1F0CA00B56B3E /* P2EmailVerifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P2EmailVerifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7178171BD1F0CA00B56B3E /* P2EmailVerifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2EmailVerifierUITests.swift; sourceTree = "<group>"; };
 		EB7178191BD1F0CA00B56B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7178251BD1F16900B56B3E /* LICENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE.txt; sourceTree = SOURCE_ROOT; };
+		EB7178261BD1F16900B56B3E /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = SOURCE_ROOT; };
+		EB71783E1BD1FD5300B56B3E /* P2EmailVerifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = P2EmailVerifier.swift; path = P2EmailVerifier/P2EmailVerifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				EB7177F71BD1F0CA00B56B3E /* AppDelegate.swift */,
-				EB7177F91BD1F0CA00B56B3E /* ViewController.swift */,
+				EB7177F91BD1F0CA00B56B3E /* P2ViewController.swift */,
+				EB71783D1BD1FD2600B56B3E /* P2EmailVerifier */,
 				EB7177FB1BD1F0CA00B56B3E /* Main.storyboard */,
+				EB7178251BD1F16900B56B3E /* LICENCE.txt */,
+				EB7178261BD1F16900B56B3E /* README.markdown */,
 				EB7177FE1BD1F0CA00B56B3E /* Assets.xcassets */,
 				EB7178001BD1F0CA00B56B3E /* LaunchScreen.storyboard */,
 				EB7178031BD1F0CA00B56B3E /* Info.plist */,
@@ -123,6 +132,14 @@
 				EB7178191BD1F0CA00B56B3E /* Info.plist */,
 			);
 			path = P2EmailVerifierUITests;
+			sourceTree = "<group>";
+		};
+		EB71783D1BD1FD2600B56B3E /* P2EmailVerifier */ = {
+			isa = PBXGroup;
+			children = (
+				EB71783E1BD1FD5300B56B3E /* P2EmailVerifier.swift */,
+			);
+			name = P2EmailVerifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7178271BD1F16900B56B3E /* LICENCE.txt in Resources */,
 				EB7178021BD1F0CA00B56B3E /* LaunchScreen.storyboard in Resources */,
 				EB7177FF1BD1F0CA00B56B3E /* Assets.xcassets in Resources */,
 				EB7177FD1BD1F0CA00B56B3E /* Main.storyboard in Resources */,
@@ -255,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB7177FA1BD1F0CA00B56B3E /* ViewController.swift in Sources */,
+				EB7177FA1BD1F0CA00B56B3E /* P2ViewController.swift in Sources */,
 				EB7177F81BD1F0CA00B56B3E /* AppDelegate.swift in Sources */,
+				EB71783F1BD1FD5300B56B3E /* P2EmailVerifier.swift in Sources */,
+				EB7178281BD1F16900B56B3E /* README.markdown in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
